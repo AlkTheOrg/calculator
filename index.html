@@ -10,31 +10,35 @@
 <body>
     <header><h1>Basic Calculator</h1></header>
     <div class="calculator">
-        <div class="display-wrapper"><div class="display"><p>0+0*231ABC</p></div></div>
+        <div class="display-wrapper"><div class="display"><p></p></div></div>
         <div class="buttons">
             <div class="row">
                 <input type="button" value="7" class="button number"/>
                 <input type="button" value="8" class="button number"/>
                 <input type="button" value="9" class="button number"/>
+                <input type="button" value="+" class="button operator"/>
                 <input type="button" value="<==" class="button" id="backspace"/>
             </div>
             <div class="row">
                 <input type="button" value="4" class="button number"/>
                 <input type="button" value="5" class="button number"/>
                 <input type="button" value="6" class="button number"/>
-                <input type="button" value="(" class="button"/>
-                <input type="button" value=")" class="button"/>
+                <input type="button" value="-" class="button operator"/>
+                <input type="button" value="(" class="button parentheses"/>
+                <input type="button" value=")" class="button parentheses"/>
             </div>
             <div class="row">
                 <input type="button" value="1" class="button number"/>
                 <input type="button" value="2" class="button number"/>
                 <input type="button" value="3" class="button number"/>
+                <input type="button" value="*" class="button operator"/>
                 <input type="button" value="C" class="button" id="clear"/>
             </div>
             <div class="row">
                 <input type="button" value="0" class="button number"/>
-                <input type="button" value="." class="button number"/>
-                <input type="button" value="^" class="button"/>
+                <input type="button" value="." class="button number" id="dot"/>
+                <input type="button" value="^" class="button operator" id="pow"/>
+                <input type="button" value="/" class="button operator"/>
                 <input type="button" value="=" class="button" id="eval"/>
             </div>
         </div>  
